@@ -1,0 +1,411 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.body{}
+.first{background: #96c196;
+    padding: 7px;
+}
+.first button{
+    text-decoration: none;
+    border: none;
+    background: #96c196;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 929px;
+}
+.home{
+     margin-left: 92px;   
+}
+i{
+    color: white;
+    margin-left: 9px;
+}
+.main{    background: #81b781;
+    display: inline-flex;
+    width: 100%;
+    padding: 2px;}
+.logo{    margin-left: 61px;}
+.logo p{color: white;
+    font-size: 48px;}
+.logo img{width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    margin-bottom: -3px;}
+.menu{}
+.menu nav{}
+.menu nav ul{}
+.menu nav ul li{display: inline;}
+.menu nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    font-size: 18px;
+}
+.menu nav ul li a:hover{
+    background:#658565 ;
+}
+.search{margin-left: 138px;}
+.in{padding: 5px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 13px;
+    box-shadow: 2px 2px 3px 2px white;
+    outline: none;
+    outline-color: red;
+}
+.search button{border-radius: 2px;
+    background: #658565;
+    border: none;
+    padding: 6px;
+    margin-left: 10px;}
+.in::placeholder{
+    color: grey;
+    border: 2px solid white;
+    text-decoration: none;}
+    
+.new{    margin-right: 6px;}
+.icon:hover{background: violet;}
+
+.in:hover{
+    border:none;
+    color: green;
+    text-decoration: none;
+    border:2px solid white;
+}
+.pic img{
+    width:55%;
+    margin-left: 307px;
+}
+.col{text-align: center;}
+.dash{border: 1px solid #00000066;
+    width: 150px;
+    margin-left: 423px;
+    margin-bottom: -13px;}
+.dashh{
+    border: 1px solid #00000066;
+    width: 150px;
+    margin-left: 758px;
+    margin-top: -12px;   
+}
+.find{
+    background: antiquewhite;
+    margin-top: 47px;
+    display: inline-flex;
+    width:100%;
+    padding: 8px;
+    margin-left: -8px;
+}
+.one{
+    width: 300px;
+    text-align: center;
+    margin-left: 43px;
+    margin-right: 16px;}
+.one h1{color: #435c43;
+    padding-top: 11px;
+}
+.one p{color: #504747;
+    margin: 8px 5px;}
+.one img{width:300px;
+height: 250px;}
+.one button{text-transform: capitalize;
+    font-size: 15px;
+    border: none;
+    background: #8bb78b;
+    padding: 8px;
+    border-radius: 3px;
+    color: white;
+}
+.two{width: 300px;
+    text-align: center;
+    margin-right: 16px;}
+.two h1{color: #435c43;
+    padding-top: 11px;
+}
+.two p{color: #504747;
+    margin: 8px 5px;}
+.two img{
+    width:300px;
+height: 250px;}
+.two button{
+    text-transform: capitalize;
+    font-size: 15px;
+    border: none;
+    background: #8bb78b;
+    padding: 8px;
+    border-radius: 3px;
+    color: white;
+}
+.three{width: 300px;
+    text-align: center;
+    margin-right: 16px;}
+.three h1{
+    color: #435c43;
+    padding-top: 11px;
+}
+.three p{color: #504747;
+    margin: 8px 5px;}
+.three img{
+    width:300px;
+    height: 250px;
+}
+.three button{
+    text-transform: capitalize;
+    font-size: 15px;
+    border: none;
+    background: #8bb78b;
+    padding: 8px;
+    border-radius: 3px;
+    color: white;
+}
+.four{width: 300px;
+    text-align: center;
+    margin-right: 16px;}
+.four h1{
+    color: #435c43;
+    padding-top: 11px;
+
+}
+.four p{color: #504747;
+    margin: 8px 5px;}
+.four img{
+    width: 300px;
+    height: 250px;
+}
+.four button{
+    text-transform: capitalize;
+    font-size: 15px;
+    border: none;
+    background: #8bb78b;
+    padding: 8px;
+    border-radius: 3px;
+    color: white;
+}
+.one button:hover{
+    background: #504747;
+}
+.two button:hover{
+    background: #504747;
+}
+.three button:hover{
+    background: #504747;
+}
+.four button:hover{
+    background: #504747;
+}
+.sale,.sa,.sal,.sall{
+    background: url(../images/rose-3407234_1920.jpg);
+    background-size: 100% 100%;
+    width: 300px;
+    height: 200px;
+}
+.sale h1,.sa h1,.sal h1,.sall h1{
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+    background: red;
+    margin-left: -188px;
+    width: 52px;
+    height: 19px;
+    border: 2px solid white;
+    display: inline-block;
+    background-attachment: fixed;
+    margin-top: 43px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px white;
+}
+.sa{
+    background: url(../images/happy-mothers-day-2199239_1920.jpg);
+    background-size: 100% 100%;
+}
+.sal{  background: url(../images/cake-2338813_1920.jpg);
+    background-size: 100% 100%;}
+.sall{  background: url(../images/flowers-4839339_1920.jpg);
+    background-size: 100% 100%;
+}
+.back{
+    background: url(../images/white.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 420px;
+    background-attachment: fixed;
+    
+}
+.mid{text-align: center;
+    background: #00000061;
+    width: 100%;
+    height: 100%;
+    padding-top: 117px;
+    
+}
+.mid h1{font-size: 58px;
+    color: whitesmoke;}
+.mid h2{color: whitesmoke;
+    font-size: 23px;}
+.mid p{background: #996399;
+    display: inline-block;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-top: 10px;}
+.mid button,.shop{
+    background: transparent;
+    color: whitesmoke;
+    font-size: 29px;
+    font-weight: bold;
+    padding: 9px 60px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.mid button:hover{
+    background: #435c43;
+    color: black;
+}
+
+.shop{}
+.shop:hover{
+    background: #435c43;
+    color: black;
+}
+.last{
+    width: 100%;
+    display: inline-flex;
+    background: #7ba17b;
+    padding-bottom: 57px;
+}
+.last_one{width: 400px;
+    margin-left: 98px;
+    margin-top: 20px;
+}
+.last_one h1{
+    text-transform: capitalize;
+    font-size: 21px;
+    color: white;
+    margin-bottom:5px;
+}
+.last_one h2{text-transform: capitalize;
+    font-size: 21px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: -6px;
+    font-family: auto;
+}
+.last_one button{
+    border: none;
+    color: white;
+    background: #435c43;
+}
+.last_two{width:300px;}
+.last_two h1{
+    text-transform: capitalize;
+    font-size: 21px;
+    color: white;
+    margin-bottom:5px;
+    font-size: 21px;
+    margin-top: 19px;
+}
+.last_two button{
+    border: none;
+    color: white;
+    background: #7ba17b;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.last_three{width:300px;}
+.last_three h1{ text-transform: capitalize;
+    font-size: 21px;
+    color: white;
+    margin-bottom:5px;
+    font-size: 21px;
+    margin-top: 19px;
+}
+.last_three button{
+    border: none;
+    color: white;
+    background: #7ba17b;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.last_four{width:500px;}
+.last_four h1{text-transform: capitalize;
+    font-size: 21px;
+    color: white;
+    margin-bottom:5px;
+    font-size: 21px;
+    margin-top: 19px;}
+.last_four input{
+    text-align: center;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 3px white;
+    margin-top: 7px;}
+.last_four button{
+    background: #7ba17b;
+    color: white;
+    border: none;
+    font-size: 16px;
+    margin-left: 66px;
+}
+.call{
+    font-size: 13px;
+    color: #351552;
+    padding-top: 2px;
+}
+.call:hover{
+    color: #996399;
+}
+
+.hom{
+    text-indent: -550px;
+}
+.one a{
+    text-decoration: none;
+    color: white;}
+.two a{
+    text-decoration: none;
+    color: white;
+}
+.three a{
+    text-decoration: none;
+    color: white;
+}
+.four a{
+    text-decoration: none;
+    color: white;
+}
+.fb{font-size: 29px;
+    color: #7ba17b;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: -54px;}
+.twit{
+    font-size: 29px;
+    color: #7ba17b;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.tube{
+    font-size: 29px;
+    color: #7ba17b;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.fb:hover{
+transform: rotate(1000deg);
+transition: 2s;
+}
+.twit:hover{
+    transform: rotate(1000deg);
+    transition: 2s;
+    }
+.tube:hover{
+        transform: rotate(1000deg);
+        transition: 2s;
+        }
+

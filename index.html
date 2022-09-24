@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 16</title>
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="shortcut icon" href="images/rose.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div class="first">
+            <i class="fa-solid fa-house home"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-gift"></i>
+            <button>Contact Us</button>
+        </div>
+        <section class="main">
+            <div class="logo">
+                <p>FL<img src="images/rose.jpg" alt="">WER.com</p>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="birthdat.html">BIRTHDAY</a></li>
+                        <li><a href="#">OCCASIONS<i class="fa-solid fa-caret-down"></i></a></li>
+                        <li><a href="#">FLOWERS<i class="fa-solid fa-caret-down"></i></a></li>
+                        <li><a href="#">SYMPATHY<i class="fa-solid fa-caret-down"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search">
+               <input class="in" type="text" placeholder="Search this site ..."> 
+               <button class="icon"><i class="fa-solid fa-magnifying-glass new"></i></button>
+            </div>
+        </section>
+        <section class="slider">
+            <div class="pic">
+                <img src="images/blue-flower.jpg" alt="">
+            </div>
+            <div class="pic">
+                <img src="images/bouquet.jpg" alt="">
+            </div>
+            <div class="pic">
+                <img src="images/flower-.jpg" alt="">
+            </div>
+        </section>
+        <section>
+            <div class="dash"></div>
+            <div class="col">
+                <h1>COLLECTIONS</h1>
+            </div>
+            <div class="dashh"></div>
+            <section class="find">
+                <div class="one">
+                     <div class="sale">
+                        <h1>Sale</h1>
+                     </div>
+                    
+                    <h1>ROMANTIC FLOWERS</h1>
+                    <P>Show your Love with flowers and gifts!</P>
+                    <button><a href="romantic.html"> View romantic flowers</a></button>
+                </div>
+                <div class="two">
+                    <div class="sa">
+                        <h1>Sale</h1>
+                     </div>
+                    <h1>GET WELL FLOWERS</h1>
+                    <P>Send a get well flower arrangement today!</P>
+                    <button><a href="getwell.html" target="_blank">View Get Well flowers</a></button>
+                </div>
+                <div class="three">
+                    <div class="sal">
+                        <h1>Sale</h1>
+                     </div>
+                    <h1>BIRTHDAY FLOWERS</h1>
+                    <P>Happy Birthday Gift Ideas!</P>
+                    <button><a href="birthdat.html">View Birthday flowers</a></button>
+                </div>
+                <div class="four">
+                    <div class="sall">
+                        <h1>Sale</h1>
+                     </div>
+                    <h1>FUNERAL FLOWERS</h1>
+                    <P>These funeral flowers are appropriate to send to a church or funeral home.</P>
+                    <button><a href="funeral.html">View Funeral flowers</a></button>
+                </div>
+            </section>
+            <section class="back">
+                <div class="mid">
+                    <h1>SAVE $20 OFF</h1>
+                    <h2>COMPETING RETAIL PRICES</h2>
+                    <p>We've done all the work for you so you can find the perfect flower or gift for any occasion.
+                         At Flower Delivery.com the possibilities are endless.</p><br><br>
+                    <button<i class="fa-solid fa-cart-shopping shop"></i></button>  SHOP NOW</button>     
+                </div>
+            </section>
+            <section class="last">
+                <div class="last_one">
+                    <h1>Order by phone</h1>
+                    <button<i class="fa-solid fa-phone call"></i> 800 45 56734</button><br>
+                    <h2>support</h2><br>
+                    <button<i class="fa-solid fa-phone call"></i> 800 54 23567</button>
+                </div>
+                <div class="last_two">
+                    <h1>Occasions</h1>
+                    <button>Birthday</button><br>
+                    <button>get well</button><br>
+                    <button>love</button><br>
+                    <button>funeral</button><br>
+                    <button>new baby</button>
+                </div>
+                <div class="last_three">
+                    <h1>Support</h1>
+                    <button>customer service</button><br>
+                    <button>international delivery</button><br>
+                    <button>security</button><br>
+                    <button>about us</button><br>
+                    <button>delivery info</button><br>
+                    <button>order status</button>
+                </div>
+                <div class="last_four">
+                    <h1>Search</h1>
+                    <input type="text" placeholder="Search this site"><br><br>
+                    <button>Search<i class="fa-solid fa-arrow-right sr"></i/button><br><br>
+                    <i class="fa-brands fa-facebook fb"></i>
+                    <i class="fa-brands fa-twitter twit"></i>
+                    <i class="fa-solid fa-circle-user tube"></i>
+                
+                </div>
+                
+            </section>
+
+
+        </section>
+
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="https://kit.fontawesome.com/eb260fabc8.js" 
+    crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+        mode:'fade',
+        speed:1000,
+        auto:true,
+      });
+    });
+    </script>
+ 
+</body>
+</html>
